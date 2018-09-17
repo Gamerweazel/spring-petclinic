@@ -156,12 +156,12 @@
         <artifactId>tomcat7-maven-plugin</artifactId> 
         <version>2.2</version> 
         <configuration> 
-        <server>tomcat-development-server</server> 
-        <url>http://144.38.196.18:8080/manager/text</url> 
+        <server>tomcatserver</server> 
+        <url>http://localhost:8000/manager/text</url> 
         <warFile>target\spring-petclinic-1.5.1.war</warFile> 
         <path>/petclinic</path> 
-	<username>joe</username>
-        <password>1francom$</password>
+        <username>admin</username>
+        <password>admin</password>
         </configuration> 
         </plugin> 
 
